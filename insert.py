@@ -22,3 +22,4 @@ db_cursor.executemany(db_insert, db_list)
 mydb.commit()
 
 print(db_cursor.rowcount, "Record Inserted")
+
